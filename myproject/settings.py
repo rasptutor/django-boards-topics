@@ -39,7 +39,9 @@ SECRET_KEY = 'django-insecure-4u(86ak-gx$!3$g_jnxqn$gv&4c-x-1(rlitx#_c59r2u9_=@0
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['django-boards-topics.onrender.com']
+ALLOWED_HOSTS = ['django-boards-topics.onrender.com',
+                  'django-boards-topics-1.onrender.com',
+                 ]
 
 
 # Application definition
